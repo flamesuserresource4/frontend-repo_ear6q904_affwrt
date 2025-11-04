@@ -3,16 +3,16 @@ import { Rocket, Star } from 'lucide-react';
 export default function Hero() {
   return (
     <section id="home" className="relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-white to-fuchsia-50" />
+      <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-white to-fuchsia-50 dark:from-gray-900 dark:via-gray-950 dark:to-gray-900" />
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-100 text-indigo-700 text-xs font-medium mb-5">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-100 text-indigo-700 dark:bg-indigo-900/40 dark:text-indigo-300 text-xs font-medium mb-5">
             <Star size={14}/> Cetak cepat, hasil profesional
           </div>
-          <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-gray-900">
+          <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white">
             Solusi Percetakan Modern untuk Bisnis dan Personal
           </h1>
-          <p className="mt-4 text-gray-600 leading-relaxed">
+          <p className="mt-4 text-gray-600 dark:text-gray-300 leading-relaxed">
             POETRACIKAL menyediakan layanan percetakan lengkap: kartu nama, brosur, stiker, banner, merchandise, kemasan, dan banyak lagi. Pesan mudah, langsung terhubung ke WhatsApp kami.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -32,29 +32,29 @@ export default function Hero() {
             </a>
           </div>
           <dl className="mt-10 grid grid-cols-3 gap-4 text-center">
-            <div className="p-4 rounded-lg bg-white shadow-sm">
-              <dt className="text-xs text-gray-500">Produk</dt>
-              <dd className="text-xl font-bold text-gray-900">100+</dd>
+            <div className="p-4 rounded-lg bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 shadow-sm">
+              <dt className="text-xs text-gray-500 dark:text-gray-400">Produk</dt>
+              <dd className="text-xl font-bold text-gray-900 dark:text-white">100+</dd>
             </div>
-            <div className="p-4 rounded-lg bg-white shadow-sm">
-              <dt className="text-xs text-gray-500">Rating</dt>
-              <dd className="text-xl font-bold text-gray-900">4.9/5</dd>
+            <div className="p-4 rounded-lg bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 shadow-sm">
+              <dt className="text-xs text-gray-500 dark:text-gray-400">Rating</dt>
+              <dd className="text-xl font-bold text-gray-900 dark:text-white">4.9/5</dd>
             </div>
-            <div className="p-4 rounded-lg bg-white shadow-sm">
-              <dt className="text-xs text-gray-500">Waktu Proses</dt>
-              <dd className="text-xl font-bold text-gray-900">Cepat</dd>
+            <div className="p-4 rounded-lg bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 shadow-sm">
+              <dt className="text-xs text-gray-500 dark:text-gray-400">Waktu Proses</dt>
+              <dd className="text-xl font-bold text-gray-900 dark:text-white">Cepat</dd>
             </div>
           </dl>
         </div>
         <div className="relative">
           <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-indigo-500 to-fuchsia-500 shadow-2xl" />
-          <div className="absolute -bottom-6 -left-6 bg-white shadow-lg rounded-xl p-4 w-56">
-            <p className="text-sm font-semibold text-gray-900">Kualitas Warna Tajam</p>
-            <p className="text-xs text-gray-500 mt-1">Dukungan warna CMYK & Pantone</p>
+          <div className="absolute -bottom-6 -left-6 bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 shadow-lg rounded-xl p-4 w-56">
+            <p className="text-sm font-semibold text-gray-900 dark:text-white">Kualitas Warna Tajam</p>
+            <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">Dukungan warna CMYK & Pantone</p>
           </div>
-          <div className="absolute -top-6 -right-6 bg-white shadow-lg rounded-xl p-4 w-56">
-            <p className="text-sm font-semibold text-gray-900">Finishing Lengkap</p>
-            <p className="text-xs text-gray-500 mt-1">Laminasi, UV, emboss, jilid</p>
+          <div className="absolute -top-6 -right-6 bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 shadow-lg rounded-xl p-4 w-56">
+            <p className="text-sm font-semibold text-gray-900 dark:text-white">Finishing Lengkap</p>
+            <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">Laminasi, UV, emboss, jilid</p>
           </div>
         </div>
       </div>
